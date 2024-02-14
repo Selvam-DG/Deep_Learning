@@ -92,12 +92,21 @@
        3. Update parameters using 𝜽^𝑖+1 = 𝜽^𝑖 − 𝜇 ⋅ ∇𝜽^i
  - There is no guarantee that the algorithm converges to the global optimum (e.g., due to learning rate 𝜇 or initial parameters 𝜽^1)
 ###ä Gradient Descent Algorithm
-- SGD
+- SGD ( Stochastic Gradient Descent)
 - Adam
 - Adadelta
 - Adagrad
 - RMSProp
-  
+- **Stochastic Gradient Descent**
+   - Algorithm
+     - Initialize weights randomly
+     - Loop until convergence
+     -    pick a single data point i
+     -    compute gradients
+     -    update weights
+     - Return weights
+
+
 ### How do our models learn?
 - We thus need to loop over the training data 𝒙1, 𝒚1,…,𝒙𝑛,𝒚𝑛) to compute sums over individual data points 
 - This results in a slight modification to the gradient descent algorithm
@@ -124,6 +133,23 @@
   - The parameters 𝜽 are optimized by iterating through the training data
   - For practical reasons, this is split into epochs and batches
 
+### The problem of Overfitting
+#### Regularization:
+- It is a Technique that constrains our optimization problem to discourage complex models
+- We need this technique to improve the generalization of our model on unseen data
+- There are two regularizations to avoid overfitting
+  1. Regularization 1- Dropout
+     - During training, randomly set some activations to 0
+  2. Regularization 2- Early stopping
+     - Stop training before we have a chance to overfit
+- 
+
+
+
+
+
+
+sources: FAU University, learnbay, google, MIT_DeepLearning 
 
 
 
