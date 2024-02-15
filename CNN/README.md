@@ -13,6 +13,7 @@
 ### Convolution
 - Moving the filter over the original image and computing the pixel value of the resulting image
 
+
 ### Pooling 
 - maximum value in the kernel in considered the output of the resulting image
 - Deeper in the network the number of features quickly grows • It makes sense to summarize these features deeper in the network
