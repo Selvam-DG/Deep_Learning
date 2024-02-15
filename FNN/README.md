@@ -63,6 +63,18 @@
   - sum of the square of the difference between actual and predicted  output values
   - J(W) = (1/n) * Σ( y^i - f(x^i,W) )^2 
 
+
+#### Cross Entropy – Class Probability and Softmax
+- For classification, each output 𝑦1,…,𝑦𝑛 represents a class energy
+- If the target class index is 𝑖, then only 𝑦𝑖 = 1 and all other 𝑦𝑗 = 0,𝑖 ≠ 𝑗 (this is also called one-hot encoding)
+  - Example for class 1: 𝑦 = (1 0 0 0 0)'
+  - Example for class 3: 𝑦 = ( 0 0 1 0 0)'
+- To ensure that we have probabilities, we apply a softmax transformation
+  -  𝑦𝑖 =exp(𝑦𝑖) / Σexp(𝑦𝑗)
+
+
+
+
 - How wrong is the current set of parameters 𝜽? Forward Propagation
   - In the forward prop, the output of the previous layer is updated to the current layer
 - How should we change the set of parameters by ∇𝜽? Backward Propagation
@@ -142,7 +154,7 @@
      - During training, randomly set some activations to 0
   2. Regularization 2- Early stopping
      - Stop training before we have a chance to overfit
-- 
+
 
 
 
