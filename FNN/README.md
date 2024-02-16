@@ -72,7 +72,10 @@
 - To ensure that we have probabilities, we apply a softmax transformation
   -  𝑦𝑖 =exp(𝑦𝑖) / Σexp(𝑦𝑗)
 
-
+- General weaknesses of Gradient Descend
+  - Multiple local minima are common
+  - Into which the network converges to depends heavily on random initialization
+  - Success depends on learning rate
 
 
 - How wrong is the current set of parameters 𝜽? Forward Propagation
