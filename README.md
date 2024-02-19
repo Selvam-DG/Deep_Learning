@@ -18,9 +18,12 @@
 
 ### Neural Network
 - How NN is better than traditional ML
-  - Automatic feature extraction and derive relation between input to output
+  - Automatic feature extraction and deriving relation between input to output
   - large data source
-  - more compputation and GPU
+  - more computation and GPU
 - How is bettre than ML
   - 
 - What NN takes 
+
+## Neural Networks:
+- Pattern Recognizer
