@@ -1,4 +1,5 @@
-# Machine learning
+### Why Deep learning, Why not Machine learning
+## Machine learning
 - Pattern finding, clustering the data
 # Problems with machine learning
 - Not handle text data, image data
@@ -38,7 +39,7 @@
   - 
 - What NN takes 
 
-### Artificial Neural Networks:
+## Artificial Neural Networks:
 - ANN contains multiple layers of artificial neurons.
 - The first layer is the input layer (in)and the last layer in output layer(on)
 - The rest of the inner layers are referred to as hidden layers.
@@ -50,9 +51,30 @@
 
 
 ### The data propagation in a forward pass is named as Feed-Forward Networks
+- Feed Forward Network:
+  - A feed-forward neural network is an artificial neural network wherein connections between the nodes do not form a cycle
+  - Information flow from input to output
 - Dense connected means fully connected
-## Tensorflow
+- Output = g( ∑ wi.xi + b )
+  - where  g is activation function, wi is weights, xi is input values and b is bias
+  - Activation Function:  Linear Unit, Rectified Linear Unit(ReLU), Sigmoid, Tanh , Swish
+- Backpropagation:
+  - Backpropagation is shorthand for "the backward propagation of errors," since an error is computed at the output and distributed backward throughout the network's layers.
+  - Why do we need Backprop?
+    - We can’t do gradient descent in deep neural network setting
+    - It won’t allow us to update the different layers of neurons simultaneously.
+    - Thus it makes the weight update a really time-consuming process overall
+
+
+## Tensorflow + Keras
+- end to end open source machine learning platform
 - TensorFlow™ is an open-source software library by Google for high-performance numerical computation
 - Its flexible architecture allows easy deployment of computation across a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters of servers to mobile and edge devices
 - Originally developed by researchers at Google Brain and was being used by internal teams at Google
 - Optimized for Deep Neural Networks
+- Advantages:
+  - Flexibility
+  - Portability
+  - Research and Production
+  - Auto Differentiation
+  - Performance
