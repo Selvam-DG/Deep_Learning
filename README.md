@@ -78,3 +78,26 @@
   - Research and Production
   - Auto Differentiation
   - Performance
+
+
+## Convolution
+- A  two function is combined to get a result of a single function is simply called convolution
+- f(x) * h(x)  = g(x)
+- Convolution Neural  Networks are the current state of art model Architecture for image classification
+  - CNN applies a series of filters to the raw pixel data of an image to extract and learn high-filters
+  - Convolution Layer1
+  - Pooling Layer1
+  - Convolution Layer2
+  - Pooling Layer2
+  - Dense Layer1
+  - Dense Layer2
+  - Logits Layer  - y_predict or y_hat
+
+
+
+
+
+## Pöoling
+- Max Pooling
+- Average Pooling
+- L2 Norm Pooling
