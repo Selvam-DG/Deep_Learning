@@ -25,7 +25,8 @@
 ![download](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/f68c5cc0-e90f-4961-8384-4f23988a8375)
 ![images](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/6e1bd491-27b8-44ec-8fbb-68f549f2a204)
 
-- 
+- ![Uploading dc89390b3136ccbbc223a1ed110c6d2b4856069c.svg…]()
+
 - Long Short-Term  Memory Networks – usually just called “LSTMs” – are a special kind of RNN, capable of learning long-term dependencies. They were introduced by Hochreiter & Schmidhuber (1997)
 - LSTMs are explicitly designed to avoid the long-term dependency problem. Remembering information for long periods of time is practically their default behavior, not something they struggle to learn
  ![download](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/07fef535-2874-4e98-9b87-213018f5b9f8)
@@ -38,6 +39,8 @@
 - 
 ![download](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/982700e5-4157-4268-8b91-45454a2c0c4b)
 
+
+- 
 ![download](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/f65da803-abdd-43ce-b703-650d71bcfb88)
 
 - Gate
@@ -54,6 +57,7 @@
 
 ![download](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/d0cdc0e8-39c8-450f-bd79-074594c67af4)
 
+![Screenshot 2024-02-22 182451](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/e2f56b03-464f-433e-927b-3a715b311e85)
 
 
 #### GRU (Gated Recurrent Unit)
