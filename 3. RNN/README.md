@@ -67,6 +67,7 @@
 -  We don’t apply a second nonlinearity when computing the output. (like tanh in LSTM at last output)
 
 ![download](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/60124834-294e-4511-ad24-1445542a3e14)
+![1_LNZTwVNuRQYZmUrtWDntGQ](https://github.com/Selvam-DG/Deep_Learning_and_NLP/assets/98681717/66b62993-8ed9-4ccd-ba13-30141e6c1fb7)
 
 
 
