@@ -105,4 +105,5 @@
 # CNN
 - tensorspace.js
 - tensor playgroung
-# RNN
+# RNN/ Recurrent Neural Networks
+# LSTM
