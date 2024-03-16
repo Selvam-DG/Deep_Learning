@@ -19,3 +19,9 @@
   - The only difference RMSProp has with Adagrad is that the gt term is calculated by exponentially decaying average and not the sum of gradients
 ### Adam (Adaptive Moment Estimation)
   -  It uses both first order moment mt and 2nd order moment gt but they are both decayed over time. Step size is approximately ±α . Step size will decrease, as it approaches minimum
+
+### Early Stopping
+
+### Random Shuffling
+
+### Batch Normalization
