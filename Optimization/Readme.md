@@ -1,4 +1,4 @@
 ## Optimization in DL:
-- SGT (Stoichastic Gradient Descent)
+- SGT (Stochastic Gradient Descent)
 - Adagrad
 - Adadelta
